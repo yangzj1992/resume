@@ -1,0 +1,114 @@
+{
+  "data_lang": "zh-CN",
+  "cnzz-id": "1000263347",
+  "resume_title": "杨忠璟 - 个人简历",
+  "name": "杨忠璟",
+  "repo": "https://github.com/yangzj1992/resume.git",
+  "job_description": ["前端工程师/程序员"],
+  "contact": {
+    "phone": "15811006592",
+    "email": "yangzj1992@qq.com",
+    "wechat": {
+      "id": "wxid_yangzj1992"
+    },
+    "sinaweibo": {
+      "id": "yangzj1992",
+      "url": "http://weibo.com/yangzj1992"
+    },
+    "github": {
+      "id": "yangzj1992"
+    },
+    "blog": {
+      "url": "http://qcyoung.com"
+    }
+  },
+  "links": [{
+    "type": "repo",
+    "url": "https://github.com/yangzj1992/resume"
+  }, {
+    "type": "pdf",
+    "url": ""
+  }],
+  "education": [{
+    "type": "bachelor",
+    "name": "北京科技大学",
+    "major": "信息管理与信息系统",
+    "start": "2011",
+    "end": "2015"
+  }],
+  "language": [{
+    "type": "english",
+    "description": [
+      "通过六级，毕业前开始坚持扇贝每日打卡，迄今400余天",
+      "具备阅读全英文书籍、文档资料的能力，有完整阅读英语原著，观看英文 MOOC 课程视频的经验",
+      "具备英文邮件、留言等交流的能力，可在Github/Stack Overflow/Medium等社区与他人正常交流"
+    ]
+  }],
+  "experience": [{
+    "type": "job",
+    "techtype": "frontend",
+    "place": "美菜网前端研发部",
+    "start": "2015.04",
+    "end": "至今",
+    "name": "前端工程师",
+    "demo": "http://online.yunshanmeicai.com/preview/preview",
+    "description": [
+      "美菜网微信商城组前端方向主要开发者，参与了在线支付，UI改版，购物流程优化等主要项目",
+      "在老版本(Zepto)中独自重构代码，从零开发了基于`gulp`的部署工具，项目组内推广基于`inspector`的微信debug工具等",
+      "参与之后`Vue`+`ES6`+`Webpack`的重构微信商城版本，负责了下单主流程业务的重构编写",
+      "参与了美菜网后端系统运用的前端UI库维护等,帮助公司PHP程序员解决遇到的前端问题"
+    ],
+    "stack": ["Vue", "bootstrap", "jQuery", "gulp", "Sass"],
+    "compatibility": "IE8+"
+  }, {
+    "type": "job",
+    "techtype": "frontend",
+    "place": "长城战略咨询",
+    "start": "2014.10",
+    "end": "2015.01",
+    "name": "前端开发",
+    "demo": "http://kejiwang.cc/",
+    "description": [
+      "完成科集网网站设计、切图到静态网页制作的全流程"
+    ],
+    "stack": ["bootstrap", "jquery"],
+    "compatibility": "IE8+"
+  }, {
+    "type": "job",
+    "techtype": "backend",
+    "place": "京东方",
+    "start": "2014.07",
+    "end": "2014.09",
+    "name": "OA开发工程师",
+    "description": [
+      "运用 `Groovy&Grails`框架开发并维护公司OA系统流程,并撰写相关开发流程文档"
+    ],
+    "stack": ["Groovy", "Grails"]
+  }, {
+    "type": "project",
+    "techtype": "blog",
+    "project_type": "personal",
+    "name": "qcyoung.com",
+    "source": "https://github.com/yangzj1992/yangzj1992.github.io",
+    "demo": "http://qcyoung.com",
+    "description": [
+      "与14年1月寒假建立，最初为Wordpress构建，后于15年7月使用Hexo构建并托管至Github Pages及Coding.net",
+      "在TKL主题基础及Next主题布局的参考下，完善响应式布局博客样式",
+    ],  
+    "stack": ["ejs", "jQuery", "Bootstrap", "Hexo", "gulp"],
+    "compatibility": "IE8+"
+  }, {
+    "type": "project",
+    "techtype": "frontend",
+    "project_type": "personal",
+    "name": "yPlayer",
+    "source": "https://github.com/yangzj1992/yPlayer",
+    "demo": "yangzj1992.u117.15800000.top/yPlayer/",
+    "description": [
+      "一个实现基本功能的在线音乐播放器，API来自网易云音乐，使用Vue、js、Sass构建",
+      "通过PHP作为中间层调取网易云音乐API，获取数据"
+    ],
+    "stack": ["PHP", "Vue",  "Sass", "gulp"],
+    "compatibility": "IE8+"
+  }]
+}
