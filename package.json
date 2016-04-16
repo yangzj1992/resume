@@ -14,6 +14,7 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "cz-conventional-changelog": "^1.1.5",
     "gulp": "^3.9.0",
     "gulp-gh-pages": "^0.5.2",
     "gulp-jade": "^1.0.0",
@@ -31,5 +32,10 @@
   "homepage": "https://github.com/yangzj1992/resume",
   "keywords": [
     "resume"
-  ]
+  ],
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }

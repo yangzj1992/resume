@@ -2,14 +2,14 @@
   "data_lang": "zh-CN",
   "cnzz-id": "1000263347",
   "resume_title": "杨忠璟 - 个人简历",
-  "name": "杨忠璟",
+  "name": "杨忠璟的简历",
   "repo": "https://github.com/yangzj1992/resume.git",
   "job_description": ["前端工程师/程序员"],
   "contact": {
-    "phone": "15811006592",
     "email": "yangzj1992@qq.com",
     "wechat": {
-      "id": "wxid_yangzj1992"
+      "id": "wxid_yangzj1992",
+      "qrcode": "static/yangzj1992QRcode.jpg"
     },
     "sinaweibo": {
       "id": "yangzj1992",
@@ -34,31 +34,36 @@
     "name": "北京科技大学",
     "major": "信息管理与信息系统",
     "start": "2011",
-    "end": "2015"
+    "end": "2015",
+    "honor": [
+      "2014全国大学生数学建模优秀奖",
+      "加入校级开发小组帮助校创业社团开发系统及静态页面",
+      "摇篮杯,北科PPT设计大赛,信息系统设计大赛等比赛获奖"
+    ]
   }],
   "language": [{
     "type": "english",
     "description": [
-      "通过六级，毕业前开始坚持扇贝每日打卡，迄今400余天",
-      "具备阅读全英文书籍、文档资料的能力，有完整阅读英语原著，观看英文 MOOC 课程视频的经验",
-      "具备英文邮件、留言等交流的能力，可在Github/Stack Overflow/Medium等社区与他人正常交流"
+      "通过六级，具有较好的英语基础，至今坚持扇贝每日打卡，迄今400余天",
+      "具备快速阅读英文文档资料的能力，有完整阅读英文原著翻译扇贝文章，观看英文 MOOC 课程视频的经验",
+      "具备英文邮件往来、社区交流能力，能在Github/Stack Overflow/Medium等社区正常交流，掘金稀土翻译组成员"
     ]
   }],
   "experience": [{
     "type": "job",
     "techtype": "frontend",
-    "place": "美菜网前端研发部",
+    "place": "美菜网",
     "start": "2015.04",
     "end": "至今",
     "name": "前端工程师",
     "demo": "http://online.yunshanmeicai.com/preview/preview",
     "description": [
       "美菜网微信商城组前端方向主要开发者，参与了在线支付，UI改版，购物流程优化等主要项目",
-      "在老版本(Zepto)中独自重构代码，从零开发了基于`gulp`的部署工具，项目组内推广基于`inspector`的微信debug工具等",
-      "参与之后`Vue`+`ES6`+`Webpack`的重构微信商城版本，负责了下单主流程业务的重构编写",
-      "参与了美菜网后端系统运用的前端UI库维护等,帮助公司PHP程序员解决遇到的前端问题"
+      "在老版本商城(`Zepto`)中独立重构代码，独立从零基于`gulp`开发部署工具，项目组内推广基于`inspector`的微信debug工具，监控前端日志协调运维修复问题等",
+      "参与基于`Vue`+`ES6`+`Webpack`新技术栈的微信商城重构版本，负责了下单主流程业务、钱包页等重构编写，并优化Webpack构建等",
+      "参与了美菜网后端系统运用的前端UI库维护等,帮助公司PHP/后端程序员解决遇到的前端问题"
     ],
-    "stack": ["Vue", "bootstrap", "jQuery", "gulp", "Sass"],
+    "stack": ["Vue", "Bootstrap", "jQuery", "gulp", "Sass"],
     "compatibility": "IE8+"
   }, {
     "type": "job",
@@ -69,11 +74,11 @@
     "name": "前端开发",
     "demo": "http://kejiwang.cc/",
     "description": [
-      "完成科集网网站设计、切图到静态网页制作的全流程"
+      "完成科集网网站简单的设计、切图到静态网页制作的全流程"
     ],
     "stack": ["bootstrap", "jquery"],
     "compatibility": "IE8+"
-  }, {
+  },{
     "type": "job",
     "techtype": "backend",
     "place": "京东方",
@@ -92,8 +97,8 @@
     "source": "https://github.com/yangzj1992/yangzj1992.github.io",
     "demo": "http://qcyoung.com",
     "description": [
-      "与14年1月寒假建立，最初为Wordpress构建，后于15年7月使用Hexo构建并托管至Github Pages及Coding.net",
-      "在TKL主题基础及Next主题布局的参考下，完善响应式布局博客样式",
+      "与14年1月寒假建站，最初为Wordpress构建，后于15年7月使用Hexo构建并托管至Github Pages及Coding.net",
+      "在TKL主题基础及Next主题布局的参考下，完善重构响应式布局及博客样式，增加大量功能及部分彩蛋"
     ],  
     "stack": ["ejs", "jQuery", "Bootstrap", "Hexo", "gulp"],
     "compatibility": "IE8+"
@@ -105,10 +110,67 @@
     "source": "https://github.com/yangzj1992/yPlayer",
     "demo": "yangzj1992.u117.15800000.top/yPlayer/",
     "description": [
-      "一个实现基本功能的在线音乐播放器，API来自网易云音乐，使用Vue、js、Sass构建",
-      "通过PHP作为中间层调取网易云音乐API，获取数据"
+      "一个实现基本功能的在线音乐播放器，使用Vue、js、Sass构建",
+      "通过PHP作为中间层调取网易云音乐API，完成获取歌曲，歌词拼接等逻辑"
     ],
     "stack": ["PHP", "Vue",  "Sass", "gulp"],
     "compatibility": "IE8+"
+  }],
+  "skills": [{
+    "type": "frontend",
+    "item": [{
+      "summary": "`HTML` / `CSS`",
+      "description": [
+        "能够编写语义化的 `HTML`，了解CSS的基本特性，具备实现较复杂的布局与动画的能力",
+        "熟悉 `HTML5` / `CSS3` 新特性,了解基本的不同系统/浏览器兼容性差异及解决办法"
+      ]
+    }, {
+      "summary": "`ECMAScript`（`JavaScript`）",
+      "description": [
+        "熟悉 `JavaScript` 基本特性,了解编写效率较高的Javascript的方法",
+        "熟悉基本的 `ECMAScript6` 新标准,"
+      ]
+    }, {
+      "summary": "`DOM` / `BOM` 及常见 `Web API`",
+      "description": [
+        "了解原生 `DOM` 与 `BOM` 的使用及相关标准，有桌面 / 移动端前端组件的开发经验",
+        "对 `WebGL` / `WebSocket` / `Web Components` / `SVG` 等 API 有一定的了解及使用经验"
+      ]
+    }, {
+      "summary": "前端工程实践",
+      "description": [
+        "使用 `Vue` / `Webpack` / `Vue-router` 编写过简单的 CRUD SPA,了解各`MV*` 思想",
+        "熟悉 `jQuery` / `jQuery UI` / `Bootstrap` 的使用、定制与扩展, 阅读过部分源代码",
+        "日常使用 `Gulp` 改进工作流",
+        "掌握基本的前端性能优化知识与技巧，并能在项目中加以实践"
+      ]
+    }]
+  }, {
+    "type": "backend",
+    "item": [{
+      "summary": "`Node.js`",
+      "description": [
+        "能够使用 `Node.js API` / `Express` / `Koa` 搭建简单的后端程序与数据库交互、渲染模板及提供 `RESTful API`",
+        "了解异步 I/O 及事件驱动的服务器模型，掌握常见的**异步编程**解决方案",
+        "能编写简单的 `Express` / `Koa` 中间件，使用 `Mocha` 与 `Chai` 编写单元测试"
+      ]
+    }, {
+      "summary": "其他",
+      "description": [
+        "有使用 `MongoDB` / `MySQL` 数据库的经验，掌握编写基本SQL语句的能力",
+        "了解 `HTTP`（1.x / 2）、 `TCP/IP`、 `WebSocket` 等协议"
+      ]
+    }] 
+  }, {
+    "type": "miscellaneous",
+    "item": [
+      "具备 `Linux` / `OSX` / `Windows` 使用经验，熟悉各系统常用命令与配置",
+      "了解 `Python`，具备实现简单的数据处理、自动化脚本、爬虫的能力",
+      "了解基本的 `Web 安全`知识（`XSS` / `CSRF` 等）",
+      "能够使用 `Markdown` 编写文章，具备良好的技术交流能力",
+      "日常使用 `Git` 与 `Sublime Text` / `Vim` 进行开发，也乐于尝试新工具",
+      "能够使用 `Photoshop` / `Illustrator` 完成简单的设计",
+      "了解`Chrome`插件的基本开发过程,能使用`Tampermonkey`编写简单的脚本拓展功能"
+    ]
   }]
 }

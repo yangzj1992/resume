@@ -1,0 +1,85 @@
+@qrcode-size: 130px;
+
+.header-qrcode .qrcode-img {
+    width: @qrcode-size;
+    height: @qrcode-size;
+    margin:0 auto;
+}
+
+.intro {
+    float: left;
+    position: absolute;
+    top: 0;
+    width: 300px;
+    padding-bottom: 10000px;
+    margin-bottom: 10000px;
+    background-color: @text-color;
+    color: white;
+}
+
+.title {
+    text-align: center;
+    margin: 0;
+
+    @media screen and (max-width: @screen-xs-max) {
+      float: none;
+      text-align: center;
+    }
+}
+
+.title h1, .title h2 {
+    margin: @padding-small-vertical 0;
+    line-height: 1;
+}
+
+.title h1 {
+    padding: @padding-small-vertical 0;
+    color: white;
+}
+
+.title h2 {
+    padding: @padding-small-vertical @padding-base-vertical;
+    font-weight: normal;
+}
+
+.header-qrcode {
+    margin: 0;
+}
+
+address {
+    .float-container();
+}
+
+.intro .contact {
+    float: left;
+    margin: 0;
+    padding-left: @padding-large-horizontal;
+    @media print or (max-width: @screen-xs-max) {
+      float: none;
+      margin-top: @padding-large-vertical;
+      padding-left: @padding-xs-horizontal;
+    }
+}
+
+.intro .contact li {
+    list-style-type: none;
+    font-style: normal;
+    line-height: 1.4;
+    font-size: @font-size-medium;
+    word-break: break-all;
+}
+
+.intro a:link, .intro a:visited {
+    color: white;
+}
+
+.intro a:hover, .intro a:active {
+    color: @secondary-light-color;;
+}
+
+.set-li-icon(contact-phone, @fa-var-phone);
+.set-li-icon(contact-email, @fa-var-envelope);
+.set-li-icon(contact-github, @fa-var-github-square);
+.set-li-icon(contact-sinaweibo, @fa-var-weibo);
+.set-li-icon(contact-blog, @fa-var-rss);
+.set-li-icon(contact-wechat, @fa-var-wechat);
