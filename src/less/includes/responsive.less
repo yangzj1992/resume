@@ -1,22 +1,11 @@
 .container { 
   margin-top: @padding-large-vertical;
 
-  @media screen and (max-width: @screen-xs-max) {
-    padding: @padding-small-vertical 0;
-    margin-top: 0;
-  }
-
-  @media screen and (min-width: @screen-sm-min) {
-    width: @container-md;
-    .content{
-      width: @container-md - @intro-width + @grid-gutter-width;
-    }
-  }
-
   @media screen and (max-width: @screen-sm-max) {
+    width: @container-sm;
     .content{
       left: 0px;
-      width: @container-md + @grid-gutter-width;
+      width: 100%;
     }
     .intro{
       position: relative;
@@ -31,6 +20,21 @@
         }
       }
     }
+  }
+
+  @media screen and (max-width: @screen-xs-max) {
+    width: 100%;
+    padding: @padding-small-vertical 0;
+    margin-top: 0;
+    .intro{
+      .title{
+        float: none;
+      }
+    }
+  }
+
+  @media screen and (min-width: @screen-sm-min) {
+    width: @container-md;
   }
 
   @media screen and (min-width: @screen-md-min) {
