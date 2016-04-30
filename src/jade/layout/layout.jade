@@ -1,4 +1,4 @@
-//- include ../mixins/ga.jade
+include ../mixins/cnzz.jade
 
 doctype html
 <!--[if lte IE 8]>
@@ -12,8 +12,8 @@ head
   block title
   meta(name='viewport', content='width=device-width, initial-scale=1.0')
   block style
-  //- if cnnz_id
-  //-   +cnzz(cnnz_id)
+  if cnzz_id
+    +cnzz(cnzz_id)
 
 body
   block IEcondition
