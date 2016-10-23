@@ -35,18 +35,14 @@
     "major": "信息管理与信息系统",
     "start": "2011",
     "end": "2015",
-    "honor": [
-      "2014 全国大学生数学建模优秀奖",
-      "加入校级开发小组帮助校创业社团开发系统及静态页面",
-      "摇篮杯，北科 PPT 设计大赛，信息系统设计大赛等比赛获奖"
-    ]
+    "work_age": "工作年限："
   }],
   "language": [{
     "type": "english",
     "description": [
-      "通过六级，具有较好的英语基础，坚持扇贝每日打卡迄今 500 余天",
+      "通过六级，具有较好的英语基础，并坚持扇贝每日打卡迄今 [600](http://weibo.com/yangzj1992) 余天",
       "具备快速阅读英文文档资料的能力，有完整阅读英文原著、观看英文 MOOC 课程视频的经验",
-      "具备良好的邮件往来、社区交流能力(Github/Stack Overflow/Medium)，稀土掘金翻译/众成翻译组成员"
+      "具备良好的邮件往来、社区交流能力，[稀土掘金](https://github.com/xitu/gold-miner/wiki/%E8%AF%91%E8%80%85%E7%A7%AF%E5%88%86%E8%A1%A8)/[众成翻译](http://zcfy.cc/@yangzj1992/article)成员，参与过 Vue 2 文档翻译/校对等"
     ]
   }],
   "experience": [{
@@ -58,9 +54,10 @@
     "name": "前端工程师",
     "demo": "http://online.yunshanmeicai.com/preview/preview",
     "description": [
+      "美菜 CMS 系统主要开发者",
       "美菜网微信商城组前端方向主要开发者，参与了美菜商城诸多主要项目的开发工作",
       "在老版本商城基于(`Zepto/Underscore`)独立重构代码开发，搭建基于 `gulp` 的开发部署工具，推广基于 `inspector` 的 debug 工具，监控前端日志协调运维修复问题等",
-      "参与基于 `Vue`+`ES6`+`Webpack` 新技术栈的二次微信商城重构版本开发，负责新技术栈下主要业务及工具环境等编写",
+      "参与基于 `Vue`+`ES6`+`Webpack` 新技术栈的微信商城重构版本开发，负责新技术栈下主要业务及工具环境等编写",
       "参与美菜网后端系统运用的前端UI库的简单维护等，帮助公司 `PHP/后端` 程序员解决遇到的前端问题"
     ],
     "stack": ["Vue", "Bootstrap", "jQuery", "gulp", "Sass"],
@@ -126,6 +123,18 @@
       "从 JSON 读取简历内容，`Jade` 模板编译，运用 `Less` 制作**响应式**网页，使用 `gulp` 自动化生成"
     ],
     "stack": ["jade", "less", "gulp"],
+    "compatibility": "IE8+"
+  }, {
+    "type": "project",
+    "techtype": "node",
+    "project_type": "personal",
+    "name": "个人题库后台系统",
+    "source": "https://github.com/yangzj1992/koa-test-middleware",
+    "demo": "",
+    "description": [
+      "基于 Koa 搭建的个人题库后台系统，采用 RESTful API 交互，MySQL 进行存储"
+    ],
+    "stack": ["Koa", "Mysql", "RESTful API"],
     "compatibility": "IE9+"
   }],
   "skills": [{
@@ -152,7 +161,7 @@
       "summary": "前端工程实践",
       "description": [
         "能使用 `Vue` / `Webpack` / `Vuex` 编写 SPA 应用，了解各 `MV*` 思想",
-        "熟悉 `jQuery` / `jQuery UI` / `Bootstrap` 的使用、定制与扩展，阅读过部分源代码",
+        "熟悉 `jQuery` / `Bootstrap` 的使用、定制与扩展，阅读过部分源代码",
         "日常使用 `gulp` 改进工作流",
         "掌握基本的前端性能优化知识与技巧，并能在项目中加以实践"
       ]

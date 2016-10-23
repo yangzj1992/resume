@@ -43,23 +43,23 @@ mixin section(sec_class, timeline)
           block
 
 
-mixin certificate(certificate)
-  dl.language-certificates
-    each cert in certificate
-      .language-cert-wrapper
-        dt.language-cert-type= cert.type
-        dd.progress.language-cert-score
-          .progress-bar(style="width: " + Math.floor(cert.score / cert.full * 100) + "%;")
-            span.progress-label= cert.score
+//- mixin certificate(certificate)
+//-   dl.language-certificates
+//-     each cert in certificate
+//-       .language-cert-wrapper
+//-         dt.language-cert-type= cert.type
+//-         dd.progress.language-cert-score
+//-           .progress-bar(style="width: " + Math.floor(cert.score / cert.full * 100) + "%;")
+//-             span.progress-label= cert.score
 
 
 mixin skills_basic(item)
   dl.skills-description.timeline-content
     each skill in item.item
-      dt.skills-item-summary!= highlight(skill.summary)
+      dt.skills-item-summary!= marked(skill.summary)
       each desc in skill.description
         dd.skills-item-description
-          span!= highlight(desc)
+          span!= marked(desc)
 
 
 mixin skills_frontend(item)
@@ -74,7 +74,7 @@ mixin skills_miscellaneous(item)
     ul.skills-description.skills-miscellaneous.timeline-content
       each desc in item.item
         li.skills-item-description
-          span!= highlight(desc)
+          span!= marked(desc)
 
 
 mixin experience_title_job(item)
@@ -84,7 +84,7 @@ mixin experience_title_job(item)
 mixin experience_content_job(item)
   dt.experience-position= item.name
   each desc in item.description
-    dd.experience-task!= highlight(desc)
+    dd.experience-task!= marked(desc)
 
 mixin experience_title_internship(item)
   +experience_title_job(item)
@@ -104,4 +104,4 @@ mixin experience_content_project(item)
 
   dt.experience-project-name= item.name
   each desc in item.description
-    dd.experience-task!= highlight(desc)
+    dd.experience-task!= marked(desc)

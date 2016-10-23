@@ -10,15 +10,14 @@ block education
         dl.education-description.timeline-content
           dt.education-name= item.name
           dd.education-major= item.major + education_type[item.type]
-          each honor in item.honor
-            dd.education-honor!= highlight(honor)
+          // dd.education-major= item.work_age + (new Date().getFullYear() - 2014)  + '年'
 
 block language
   +section("language", false)
     each lang in language
       ul.language-description
         each desc in lang.description
-          li.language-desc-item= desc
+          li.language-desc-item!= marked(desc)
 
 
 block experience

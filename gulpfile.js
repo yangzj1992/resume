@@ -7,9 +7,16 @@ var gls = require('gulp-live-server');
 var server = gls.static('dist', 8500);
 
 /**************** Utility **********************/
-function highlight(str) {
-  return str.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
-    .replace(/`(.+?)`/g, '<strong>$1</strong>');
+var reg = {
+      code: /`(.+?)`/g,
+      bold: /\*\*(.+?)\*\*/g,
+      links: /!?\[([^\]<>]+)\]\(([^ \)<>]+)( "[^\(\)\"]+")?\)/g,
+}
+
+function marked(str){
+  return str.replace(reg.bold, '<strong>$1</strong>')
+    .replace(reg.code, '<strong>$1</strong>')
+    .replace(reg.links, '<a href="$2">$1</a>');
 }
 
 /******************* Jade to html ***********/
@@ -27,7 +34,7 @@ function getLocals() {
     locals[item] = resumeData[item];
   }
 
-  locals.highlight = highlight;
+  locals.marked = marked;
 
   return locals;
 }
