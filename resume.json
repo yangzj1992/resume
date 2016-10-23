@@ -54,11 +54,11 @@
     "name": "前端工程师",
     "demo": "http://online.yunshanmeicai.com/preview/preview",
     "description": [
-      "美菜 CMS 系统主要开发者",
-      "美菜网微信商城组前端方向主要开发者，参与了美菜商城诸多主要项目的开发工作",
-      "在老版本商城基于(`Zepto/Underscore`)独立重构代码开发，搭建基于 `gulp` 的开发部署工具，推广基于 `inspector` 的 debug 工具，监控前端日志协调运维修复问题等",
-      "参与基于 `Vue`+`ES6`+`Webpack` 新技术栈的微信商城重构版本开发，负责新技术栈下主要业务及工具环境等编写",
-      "参与美菜网后端系统运用的前端UI库的简单维护等，帮助公司 `PHP/后端` 程序员解决遇到的前端问题"
+      "美菜网微信商城组前端方向主要开发者",
+      "在老版本商城基于 (`Zepto/Underscore`) 独立重构代码开发，搭建基于 `gulp` 的开发部署工具，推广基于 `inspector` 的 debug 工具，监控前端日志协调运维修复问题等",
+      "参与基于 `Vue` + `ES6` + `Webpack` 新技术栈的微信商城重构版本开发，负责新技术栈下主要业务及工具环境等编写",
+      "美菜 `CMS` 系统主要开发者",
+      "参与美菜网后端系统运用的前端 UI 库的简单维护等"
     ],
     "stack": ["Vue", "Bootstrap", "jQuery", "gulp", "Sass"],
     "compatibility": "IE8+"
@@ -120,7 +120,7 @@
     "source": "https://github.com/yangzj1992/resume",
     "demo": "http://qcyoung.com/project/resume/",
     "description": [
-      "从 JSON 读取简历内容，`Jade` 模板编译，运用 `Less` 制作**响应式**网页，使用 `gulp` 自动化生成"
+      "从 JSON 读取简历内容，`Jade` (`Pug`) 模板编译，运用 `Less` 制作**响应式**网页，使用 `gulp` 自动化生成"
     ],
     "stack": ["jade", "less", "gulp"],
     "compatibility": "IE8+"
@@ -132,7 +132,7 @@
     "source": "https://github.com/yangzj1992/koa-test-middleware",
     "demo": "",
     "description": [
-      "基于 Koa 搭建的个人题库后台系统，采用 RESTful API 交互，MySQL 进行存储"
+      "基于 `Koa` 搭建的个人题库后台系统，采用 `RESTful API` 交互，`MySQL` 进行存储"
     ],
     "stack": ["Koa", "Mysql", "RESTful API"],
     "compatibility": "IE9+"
@@ -149,7 +149,7 @@
       "summary": "`ECMAScript`（`JavaScript`）",
       "description": [
         "熟悉 `JavaScript` 基本特性，了解编写效率较高的 `Javascript` 的方法",
-        "熟悉基本的 `ECMAScript6` 新标准"
+        "熟悉 `ECMAScript6` 新标准"
       ]
     }, {
       "summary": "`DOM` / `BOM` 及常见 `Web API`",
