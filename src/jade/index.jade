@@ -1,17 +1,6 @@
 extends ./layout/resume-layout.jade
 include ./mixins/util.jade
 
-block education
-  +section("education", true)
-    each item in education
-      li.timeline-item(class="education-" + item.type)
-        h3.timeline-title
-          time.education-time #{item.start} ~ #{item.end}
-        dl.education-description.timeline-content
-          dt.education-name= item.name
-          dd.education-major= item.major + education_type[item.type]
-          // dd.education-major= item.work_age + (new Date().getFullYear() - 2014)  + '年'
-
 block language
   +section("language", false)
     each lang in language

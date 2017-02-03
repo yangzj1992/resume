@@ -5,6 +5,11 @@
   "name": "杨忠璟的简历",
   "repo": "https://github.com/yangzj1992/resume.git",
   "job_description": ["前端工程师/程序员"],
+  "info":{
+    "person": "男 25 北京",
+    "education": "北京科技大学 本科",
+    "professional": "信息管理与信息系统专业"
+  },
   "contact": {
     "email": "yangzj1992@qq.com",
     "wechat": {
@@ -40,7 +45,7 @@
   "language": [{
     "type": "english",
     "description": [
-      "通过六级，具有较好的英语基础，并坚持扇贝每日打卡迄今 [600](http://weibo.com/yangzj1992) 余天",
+      "通过六级，具有较好的英语基础，并坚持扇贝每日打卡迄今 [700](http://weibo.com/yangzj1992) 余天",
       "具备快速阅读英文文档资料的能力，有完整阅读英文原著、观看英文 MOOC 课程视频的经验",
       "具备良好的邮件往来、社区交流能力，[稀土掘金](https://github.com/xitu/gold-miner/wiki/%E8%AF%91%E8%80%85%E7%A7%AF%E5%88%86%E8%A1%A8)/[众成翻译](http://zcfy.cc/@yangzj1992/article)成员，参与过 Vue 2 文档翻译/校对等"
     ]
@@ -90,7 +95,7 @@
     "type": "project",
     "techtype": "blog",
     "project_type": "personal",
-    "name": "qcyoung.com",
+    "name": "青春样博客",
     "source": "https://github.com/yangzj1992/yangzj1992.github.io",
     "demo": "http://qcyoung.com",
     "description": [
@@ -143,7 +148,8 @@
       "summary": "`HTML` / `CSS`",
       "description": [
         "能够编写语义化的 `HTML`，了解 `CSS` 的基本特性，具备实现较复杂的布局与动画的能力",
-        "熟悉 `HTML5` / `CSS3` 新特性，了解基本的不同系统/浏览器兼容性差异及解决办法"
+        "熟悉 `HTML5` / `CSS3` 新特性，了解基本的不同系统/浏览器兼容性差异及解决办法",
+        "了解 BEM 等常用的 CSS 命名方案及规范，熟练使用 `Sass` / `Less` / `Stylus` 等 CSS 预处理方案"
       ]
     }, {
       "summary": "`ECMAScript`（`JavaScript`）",

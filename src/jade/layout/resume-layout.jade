@@ -5,7 +5,7 @@ block title
   title= resume_title
 
 block style
-  link(rel='stylesheet', href="index.css")
+  link(rel='stylesheet', href="./index.css")
 
 block intro
   header.intro
@@ -14,11 +14,19 @@ block intro
     section.title
       h1= name
       h2= job_description.join("/")
+    section
+      +head-tag("info", false)
+      ul.contact
+        each item, key in info
+          +#{key}(item)
+      .clear
     address
+      +head-tag("contact", false)
       ul.contact
         each item, key in contact
           +#{key}(item)
         +responsive("wechat", contact.wechat, "visible-lt-sm invisible-print")
+
 
 block content
   article.content.row

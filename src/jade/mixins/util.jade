@@ -1,3 +1,12 @@
+mixin person(data)
+  li.info-person&attributes(attributes)= data
+
+mixin education(data)
+  li.info-education&attributes(attributes)= data
+
+mixin professional(data)
+  li.info-professional&attributes(attributes)= data
+
 mixin phone(number)
   li.contact-phone&attributes(attributes)= number
 
@@ -25,6 +34,11 @@ mixin wechat(data)
 
 mixin responsive(mixin_name, data, res_class)
   +#{mixin_name}(data)(class=res_class)
+
+mixin head-tag(sec_class, timeline)
+  p.tag
+    span= section_names[sec_class].ch + '. '
+    span= section_names[sec_class].en
 
 mixin section(sec_class, timeline)
   section(class=sec_class)

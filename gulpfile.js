@@ -16,7 +16,7 @@ var reg = {
 function marked(str){
   return str.replace(reg.bold, '<strong>$1</strong>')
     .replace(reg.code, '<strong>$1</strong>')
-    .replace(reg.links, '<a href="$2">$1</a>');
+    .replace(reg.links, '<a href="$2" target="_blank">$1</a>');
 }
 
 /******************* Jade to html ***********/
@@ -65,12 +65,10 @@ function less2css(srcPath, destPath, debug) {
 }
 
 gulp.task('less', function() {
-  less2css('./src/less/questions.less', './dist/questions/');
   less2css('./src/less/index.less', './dist/');
 });
 
 gulp.task('less-debug', function() {
-  less2css('./src/less/questions.less', './dist/questions/', true);
   less2css('./src/less/index.less', './dist/', true);
 });
 

@@ -14,6 +14,14 @@ module.exports = {
         "pdf": "PDF 下载"
     },
     section_names: {
+        "info": {
+            "ch": "个人资料",
+            "en": "Information"
+        },
+        "contact": {
+            "ch": "联系方式",
+            "en": "Contact"
+        },
         "education": {
             "ch": "教育经历",
             "en": "Education"
