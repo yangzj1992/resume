@@ -46,8 +46,8 @@
     "type": "english",
     "description": [
       "通过六级，具有较好的英语基础，并坚持扇贝每日打卡迄今 [700](http://weibo.com/yangzj1992) 余天",
-      "具备快速阅读英文文档资料的能力，有完整阅读英文原著、观看英文 MOOC 课程视频的经验",
-      "具备良好的邮件往来、社区交流能力，[稀土掘金](https://github.com/xitu/gold-miner/wiki/%E8%AF%91%E8%80%85%E7%A7%AF%E5%88%86%E8%A1%A8)/[众成翻译](http://zcfy.cc/@yangzj1992/article)成员，参与过 Vue 2 文档翻译/校对等"
+      "能够快速阅读、翻译英文文档资料，有完整阅读英文原著、观看英文 MOOC 视频的经验",
+      "具备良好的邮件、社区交流能力，[稀土掘金](https://github.com/xitu/gold-miner/wiki/%E8%AF%91%E8%80%85%E7%A7%AF%E5%88%86%E8%A1%A8)/[众成翻译](http://zcfy.cc/@yangzj1992/article)成员，参与过 Vue 2 文档翻译/校对等"
     ]
   }],
   "experience": [{
@@ -62,8 +62,7 @@
       "美菜网微信商城组前端方向主要开发者",
       "在老版本商城基于 (`Zepto/Underscore`) 独立重构代码开发，搭建基于 `gulp` 的开发部署工具，推广基于 `inspector` 的 debug 工具，监控前端日志协调运维修复问题等",
       "参与基于 `Vue` + `ES6` + `Webpack` 新技术栈的微信商城重构版本开发，负责新技术栈下主要业务及工具环境等编写",
-      "美菜 `CMS` 系统主要开发者",
-      "参与美菜网后端系统运用的前端 UI 库的简单维护等"
+      "参与过美菜网前端基础 UI 库的编写维护等"
     ],
     "stack": ["Vue", "Bootstrap", "jQuery", "gulp", "Sass"],
     "compatibility": "IE8+"
@@ -125,7 +124,7 @@
     "source": "https://github.com/yangzj1992/resume",
     "demo": "http://qcyoung.com/project/resume/",
     "description": [
-      "从 JSON 读取简历内容，`Jade` (`Pug`) 模板编译，运用 `Less` 制作**响应式**网页，使用 `gulp` 自动化生成"
+      "`Pug` 模板自动编译，`Less` 制作**响应式**布局，使用 `gulp` 读取 `JSON` 数据自动化生成"
     ],
     "stack": ["jade", "less", "gulp"],
     "compatibility": "IE8+"
@@ -137,7 +136,7 @@
     "source": "https://github.com/yangzj1992/koa-test-middleware",
     "demo": "",
     "description": [
-      "基于 `Koa` 搭建的个人题库后台系统，采用 `RESTful API` 交互，`MySQL` 进行存储"
+      "基于 `Koa` 搭建的个人题库系统，`RESTful API` 交互，`MySQL` 存储，`Mocha` 测试"
     ],
     "stack": ["Koa", "Mysql", "RESTful API"],
     "compatibility": "IE9+"
@@ -147,29 +146,22 @@
     "item": [{
       "summary": "`HTML` / `CSS`",
       "description": [
-        "能够编写语义化的 `HTML`，了解 `CSS` 的基本特性，具备实现较复杂的布局与动画的能力",
-        "熟悉 `HTML5` / `CSS3` 新特性，了解基本的不同系统/浏览器兼容性差异及解决办法",
+        "能编写语义化的 `HTML`，了解 `CSS` 的基本特性，能够实现复杂的布局与动画",
+        "熟悉 `HTML5` / `CSS3` 新特性，了解基本的平台/系统/浏览器兼容性差异及解决办法",
         "了解 BEM 等常用的 CSS 命名方案及规范，熟练使用 `Sass` / `Less` / `Stylus` 等 CSS 预处理方案"
       ]
     }, {
       "summary": "`ECMAScript`（`JavaScript`）",
       "description": [
-        "熟悉 `JavaScript` 基本特性，了解编写效率较高的 `Javascript` 的方法",
-        "熟悉 `ECMAScript6` 新标准"
-      ]
-    }, {
-      "summary": "`DOM` / `BOM` 及常见 `Web API`",
-      "description": [
-        "了解原生 `DOM` 与 `BOM` 的使用及相关标准，有桌面 / 移动端前端组件的开发经验",
-        "对 `WebGL` / `WebSocket` / `Web Components` / `SVG` 等 API 有一定的了解及使用经验"
+        "熟悉 `JavaScript` 基本特性，熟悉 `ECMAScript6/7` 新标准",
+        "对 `Canvas` / `SVG` / `WebGL` 等 API 也有一定的了解及使用经验"
       ]
     }, {
       "summary": "前端工程实践",
       "description": [
-        "能使用 `Vue` / `Webpack` / `Vuex` 编写 SPA 应用，了解各 `MV*` 思想",
-        "熟悉 `jQuery` / `Bootstrap` 的使用、定制与扩展，阅读过部分源代码",
-        "日常使用 `gulp` 改进工作流",
-        "掌握基本的前端性能优化知识与技巧，并能在项目中加以实践"
+        "能使用 `Vue` / `Webpack` / `Vuex` 等编写现代化的前端应用及组件，了解各 `MV*` 思想",
+        "熟悉 `jQuery` / `Bootstrap` 等常规库的使用、定制与扩展，阅读过部分源代码",
+        "能使用 `gulp` / `Node.js` 等改进工作流，掌握基本的前端性能优化方法并加以实践"
       ]
     }]
   }, {
@@ -177,27 +169,29 @@
     "item": [{
       "summary": "`Node.js`",
       "description": [
-        "能够使用 `Node.js API` / `Express` / `Koa` 搭建简单的后端程序与数据库交互、渲染模板及提供 `RESTful API`",
+        "能够使用 `Node.js` / `Express` / `Koa` 搭建简单的后端程序与数据库交互、渲染模板及提供 `RESTful API`",
         "了解异步 I/O 及事件驱动的服务器模型，掌握常见的**异步编程**解决方案",
         "能编写简单的 `Express` / `Koa` 中间件，使用 `Mocha` 与 `Chai` 编写单元测试"
       ]
     }, {
       "summary": "其他",
       "description": [
-        "有使用 `MongoDB` / `MySQL` 数据库的经验，掌握编写基本SQL语句的能力",
-        "了解 `HTTP`（1.x / 2）、 `TCP/IP`、 `WebSocket` 等协议"
+        "有使用 `MongoDB` / `MySQL` 数据库的经验，掌握编写基本 SQL 语句的能力",
+        "一定了解 `HTTP`（1.x / 2）、 `TCP/IP`、 `WebSocket` 等协议",
+        "具备一定的 `PHP` 基础，能在 `Yii` / `Laravel` 等框架下编写开发应用"
       ]
     }] 
   }, {
     "type": "miscellaneous",
     "item": [
       "具备 `Linux` / `OSX` / `Windows` 使用经验，熟悉各系统常用命令与配置",
-      "了解 `Python`，具备实现简单的数据处理、自动化脚本、爬虫的能力",
+      "掌握基本的`数据结构与算法`/`计算机网络`等基础知识，能使用 `Wireshark` 等工具进行分析",
+      "了解 `Python`，具备实现简单的数据处理、自动化脚本、爬虫等能力",
       "了解基本的 `Web 安全`知识（`XSS` / `CSRF` 等）",
-      "能够使用 `Markdown` 编写文章，具备良好的技术交流能力",
+      "熟练使用 `Markdown` 编写文章，具备良好的技术交流能力",
       "日常使用 `Git` 与 `Sublime Text` / `Vim` 进行开发，也乐于尝试新工具",
       "能够使用 `Photoshop` / `Illustrator` 完成简单的设计",
-      "了解 `Chrome` 插件的基本开发过程，能使用 `Tampermonkey` 编写简单的脚本拓展功能"
+      "了解 `Chrome` 浏览器等相关知识，能使用 `Tampermonkey` 编写简单的脚本拓展"
     ]
   }]
 }
