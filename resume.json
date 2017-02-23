@@ -24,7 +24,8 @@
       "id": "yangzj1992"
     },
     "blog": {
-      "url": "http://qcyoung.com"
+      "id": "qcyoung.com",
+      "url": "http://www.qcyoung.com"
     }
   },
   "links": [{
@@ -96,7 +97,7 @@
     "project_type": "personal",
     "name": "青春样博客",
     "source": "https://github.com/yangzj1992/yangzj1992.github.io",
-    "demo": "http://qcyoung.com",
+    "demo": "http://www.qcyoung.com",
     "description": [
       "于 14 年 1 月寒假建站，最初为 `Wordpress` 构建，后于 15 年 7 月使用 `Hexo` 构建并托管至 Github Pages 及 Coding.net",
       "在 TKL 主题基础及 Next 主题布局的参考设计下，重构响应式布局并完善博客页面功能及样式，增加大量功能及彩蛋"
@@ -109,7 +110,7 @@
     "project_type": "personal",
     "name": "yPlayer",
     "source": "https://github.com/yangzj1992/yPlayer",
-    "demo": "yangzj1992.u117.15800000.top/yPlayer/",
+    "demo": "http://qcyoung.xyz/yPlayer/",
     "description": [
       "一个实现基本功能的在线音乐播放器，使用 `Vue`、`JS`、`Sass` 构建",
       "通过 `PHP` 作为中间层，通过网易云音乐 API 完成获取歌曲，歌词拼接等逻辑"
@@ -148,7 +149,7 @@
       "description": [
         "能编写语义化的 `HTML`，了解 `CSS` 的基本特性，能够实现复杂的布局与动画",
         "熟悉 `HTML5` / `CSS3` 新特性，了解基本的平台/系统/浏览器兼容性差异及解决办法",
-        "了解 BEM 等常用的 CSS 命名方案及规范，熟练使用 `Sass` / `Less` / `Stylus` 等 CSS 预处理方案"
+        "了解 `BEM` 等常用的 CSS 命名方案及规范，熟练使用 `Sass` / `Less` / `Stylus` 等 CSS 预处理方案"
       ]
     }, {
       "summary": "`ECMAScript`（`JavaScript`）",

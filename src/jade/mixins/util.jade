@@ -24,7 +24,7 @@ mixin github(data)
 
 mixin blog(data)
   li.contact-blog&attributes(attributes)
-    a(href=data.url)= data.url
+    a(href=data.url)= data.id
 
 mixin qrcode(data)
   img.qrcode-img(src=data.qrcode, alt=data.id)&attributes(attributes)
